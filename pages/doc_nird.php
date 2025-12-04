@@ -62,7 +62,7 @@
             En gros l'objectifs principal c'est transformer l’usage du numérique dans l’éducation en s’appuyant sur trois piliers :
                 <br><br>
         </p>
-        <div style="">
+        <div style="text-align: left;">
             <ul>
                 <li>- Inclusion : Réduire la fracture numérique en rendant le numérique accessible à tous, notamment via le reconditionnement de matériel et la distribution d’ordinateurs équipés de logiciels libres.<li>
                 <li>- Responsabilité : Promouvoir l’autonomie et la citoyenneté numérique en utilisant des logiciels libres et ouverts (GNU/Linux, Raspberry Pi, etc.), pour sortir de la dépendance aux géants du numérique (GAFAM) et former des utilisateurs conscients et émancipés.<li>
