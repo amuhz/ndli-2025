@@ -41,9 +41,9 @@
             background: white;
             padding: 25px 35px;
             border-radius: 15px;
-            max-width: 600px;
+            max-width: 1000px;
             box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-            text-align: center;         /* Centre le texte */
+            text-align: center;
             font-size: 18px;
             line-height: 1.6;
         }
