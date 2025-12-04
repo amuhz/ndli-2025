@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nez Crome Ancien</title>
+    <title>Nez Chrome Ancien</title>
     <link rel="icon" type="image/png" href="img/foret.jpg"><!--a changer-->
     <style>
         body {
@@ -38,9 +38,9 @@
     </style>
 </head>
 <body>
-    <a href="page/connexion.php" class="btn" style="margin: 10px;">Connexion/inscription</a>
-    <a href="page/find_distri.php" class="btn">Trouve Ta Distribution !</a>
-    <a href="page/linux_distri.php" class="btn" style="margin: 10px;">Liste distribution</a>
-    <a href="page/doc_nird.php" class="btn" style="margin: 10px;">C'est quoi NIRD ?</a>
+    <a href="pages/connexion.php" class="btn" style="margin: 10px;">Connexion/inscription</a>
+    <a href="pages/find_distri.php" class="btn">Trouve Ta Distribution !</a>
+    <a href="pages/linux_distri.php" class="btn" style="margin: 10px;">Liste distribution</a>
+    <a href="pages/doc_nird.php" class="btn" style="margin: 10px;">C'est quoi NIRD ?</a>
 </body>
 </html>
