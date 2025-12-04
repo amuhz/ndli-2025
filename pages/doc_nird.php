@@ -37,7 +37,6 @@
             box-shadow: 0 8px 18px rgba(0,0,0,0.3);
         }
         .box {
-            background: white;
             padding: 25px 35px;
             border-radius: 15px;
             max-width: 1000px;
@@ -45,6 +44,7 @@
             text-align: center;
             font-size: 18px;
             line-height: 1.6;
+            background: rgba(255, 255, 255, 0.3);
         }
     </style>
 </head>
