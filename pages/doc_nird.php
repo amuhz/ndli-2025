@@ -67,14 +67,14 @@
                 <li>Durabilité : Adopter une approche sobre et écologique, en prolongeant la durée de vie des machines, en réduisant les déchets électroniques et en limitant les coûts de licences.</li><br>
             </ul>
         </div>
-        <br><br>
+        <br>
         <p>
-            NIRD Actions concrètes
-                <br><br>
-            Matériel : Intégration de machines sous Linux, reconditionnement de vieux PC, utilisation de Raspberry Pi pour des solutions légères et économiques.<br>
-            Pédagogie : Formation des élèves et des enseignants aux enjeux du numérique libre, partage de ressources éducatives libres (REL) et de protocoles de reconditionnement.
-            Citoyenneté : Impliquer les élèves dans le reconditionnement et la distribution de matériel, créant une dynamique collective et responsabilisante.
-            Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.
+            <h4>Concrètement faut faire quoi pour avoir une démarche de NIRD ?</h4>
+            Pour mettre en oeuvre une demarche NIRD, on doit agir sur plusieurs axes :
+            Le Matériel : Intégration de machines sous Linux, reconditionnement de vieux PC, utilisation de Raspberry Pi pour des solutions légères et économiques.<br>
+            La Pédagogie : Formation des élèves et des enseignants aux enjeux du numérique libre, partage de ressources éducatives libres (REL) et de protocoles de reconditionnement.
+            La Citoyenneté : Impliquer les élèves dans le reconditionnement et la distribution de matériel, créant une dynamique collective et responsabilisante.
+            Le Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.
             Originalité du projet
                 <br><br>
             Approche globale : Le projet ne se limite pas à l’équipement technique, mais vise une transformation des pratiques et des valeurs autour du numérique.
