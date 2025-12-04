@@ -42,5 +42,6 @@
     <a href="page/connexion.php" class="btn" style="margin: 10px;">Connexion/inscription</a>
     <a href="page/find_distri.php" class="btn">Trouve Ta Distribution !</a>
     <a href="page/linux_distri.php" class="btn" style="margin: 10px;">Liste distribution</a>
+    <a href="page/doc_nird.php" class="btn" style="margin: 10px;">C'est quoi NIRD ?</a>
 </body>
 </html>
