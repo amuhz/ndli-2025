@@ -16,6 +16,6 @@
   </style>
 </head>
 <body>
-    bonjour je suis un tres beau site tres leger
+    bonjour je suis un tres beau site tres legerr
 </body>
 </html>
