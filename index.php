@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="chemin/vers/logo.png"><!--a changer-->
     <style>
         body {
-        background-image: url("images/fond.jpg");
+        background-image: url("img/foret.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
