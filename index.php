@@ -37,9 +37,8 @@
     </style>
 </head>
 <body>
-    <button class="btn" style="margin: 10px;">Connexion/inscription</button>
-    <button class="btn">Trouve Ta Distribution !</button>
-    <button class="btn" style="margin: 10px;">Liste distribution</button>
-    
+    <a href="connexion.php" class="btn" style="margin: 10px;">Connexion/inscription</a>
+    <a href="find_distri.php" class="btn">Trouve Ta Distribution !</a>
+    <a href="linux_distri.php" class="btn" style="margin: 10px;">Liste distribution</a>
 </body>
 </html>
