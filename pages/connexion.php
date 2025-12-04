@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Connect</title>
     <link rel="icon" type="image/png" href="img/foret.jpg">
     <style>
         body {
-            background-image: url("img/foret.jpg");
+            background-image: url("../img/foret.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -40,6 +40,13 @@
 </head>
 <body>
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
-    ici c'est la connexion !
+        <div id="formulaire" class="col d-none">
+            <p style="margin-left: 10%;">Pseudo</p>
+            <input type="text" id="numero" style="margin-left: 10%;">
+            
+            <button type="button" onclick="addBien()" class="btn btn-primary">Valider</button>
+
+        </div>
+
 </body>
 </html>
