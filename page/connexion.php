@@ -19,9 +19,25 @@
             height: 100vh;
             margin: 0;
         }
+        .btn {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #787686ff, #9188a3ff);
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+        }
     </style>
 </head>
 <body>
+    <a href="ndex.php" class="btn" style="margin: 10px;">Accueil</a>
     ici c'est la connexion !
 </body>
 </html>
