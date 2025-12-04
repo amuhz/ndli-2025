@@ -70,11 +70,15 @@
         <p>
             <h4>Concrètement faut faire quoi pour avoir une démarche de NIRD ?</h4>
             Pour mettre en oeuvre une demarche NIRD, on doit agir sur plusieurs axes :
-            Le Matériel : Intégration de machines sous Linux, reconditionnement de vieux PC, utilisation de Raspberry Pi pour des solutions légères et économiques.<br>
-            La Pédagogie : Formation des élèves et des enseignants aux enjeux du numérique libre, partage de ressources éducatives libres (REL) et de protocoles de reconditionnement.
-            La Citoyenneté : Impliquer les élèves dans le reconditionnement et la distribution de matériel, créant une dynamique collective et responsabilisante.
-            Le Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.
-            Originalité du projet
+            <div style="text-align: left;">
+                <ul>
+                    <li>Le Matériel : Intégration de machines sous Linux, reconditionnement de vieux PC, utilisation de Raspberry Pi pour des solutions légères et économiques.<br>
+                    <li>La Pédagogie : Formation des élèves et des enseignants aux enjeux du numérique libre, partage de ressources éducatives libres (REL) et de protocoles de reconditionnement.</li>
+                    <li>La Citoyenneté : Impliquer les élèves dans le reconditionnement et la distribution de matériel, créant une dynamique collective et responsabilisante.</li>
+                    <li>Le Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.</li>
+                    Originalité du projet</li>
+                </ul>
+            </div>
                 <br>
             <h4>Le projet NIRD c'est avoir un ordinateur sous Linux ?</h4>
             Non, le projet NIRD ne se limite pas à l’équipement technique, NIRD c'est aussi une transformation des pratiques et des valeurs autour du numérique dans lequel on réfléchi a la réduction de la consommation énergétique, a l'allongement de la durée de vie des machines, et à la baisse des coûts pour les collectivités.
@@ -82,12 +86,14 @@
             En étant un modèle efficace et reproductible, NIRD se veut un exemple inspirant pour d’autres établissements, avec une ambition de diffusion nationale.
             <h4>OK, c'est super NIRD, mais concrètement ça change quoi ?</h4>
             Avoir une démarche nationale NIRD permettrait de répondre à plusieurs enjeux majeurs :
-            <ul>
-                <li>Équité : Offrir à tous les élèves un accès équitable au numérique, quel que soit leur contexte socio-économique.</li>
-                <li>Autonomie : Former des citoyens capables de maîtriser et de choisir leurs outils numériques, plutôt que de les subir.</li>
-                <li>Écologie : Réduire l’empreinte environnementale du numérique éducatif.</li>
-                <li>Économie : Diminuer les coûts pour les collectivités grâce à l’utilisation de logiciels libres et de matériel reconditionné.</li>
-            </ul>
+            <div style="text-align: left;">
+                <ul>
+                    <li>Équité : Offrir à tous les élèves un accès équitable au numérique, quel que soit leur contexte socio-économique.</li>
+                    <li>Autonomie : Former des citoyens capables de maîtriser et de choisir leurs outils numériques, plutôt que de les subir.</li>
+                    <li>Écologie : Réduire l’empreinte environnementale du numérique éducatif.</li>
+                    <li>Économie : Diminuer les coûts pour les collectivités grâce à l’utilisation de logiciels libres et de matériel reconditionné.</li>
+                </ul>
+            </div>
         </p>
     </div>
 </body>
