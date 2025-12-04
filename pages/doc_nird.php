@@ -75,17 +75,19 @@
             La Citoyenneté : Impliquer les élèves dans le reconditionnement et la distribution de matériel, créant une dynamique collective et responsabilisante.
             Le Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.
             Originalité du projet
-                <br><br>
-            Approche globale : Le projet ne se limite pas à l’équipement technique, mais vise une transformation des pratiques et des valeurs autour du numérique.
-            Logique de sobriété : Réduction de la consommation énergétique, allongement de la durée de vie des machines, et baisse des coûts pour les collectivités.
-            Modèle reproductible : NIRD se veut un exemple inspirant pour d’autres établissements, avec une ambition de diffusion nationale.
-                <br><br>
-            Enjeux et bénéfices
-                <br><br>
-            Équité : Offrir à tous les élèves un accès équitable au numérique, quel que soit leur contexte socio-économique.
-            Autonomie : Former des citoyens capables de maîtriser et de choisir leurs outils numériques, plutôt que de les subir.
-            Écologie : Réduire l’empreinte environnementale du numérique éducatif.
-            Économie : Diminuer les coûts pour les collectivités grâce à l’utilisation de logiciels libres et de matériel reconditionné.
+                <br>
+            <h4>Le projet NIRD c'est avoir un ordinateur sous Linux ?</h4>
+            Non, le projet NIRD ne se limite pas à l’équipement technique, NIRD c'est aussi une transformation des pratiques et des valeurs autour du numérique dans lequel on réfléchi a la réduction de la consommation énergétique, a l'allongement de la durée de vie des machines, et à la baisse des coûts pour les collectivités.
+            Finalement NIRD c'est penser sur le long terme avec un numérique plus étique et plus réfléchit.
+            En étant un modèle efficace et reproductible, NIRD se veut un exemple inspirant pour d’autres établissements, avec une ambition de diffusion nationale.
+            <h4>OK, c'est super NIRD, mais concrètement ça change quoi ?</h4>
+            Avoir une démarche nationale NIRD permettrait de répondre à plusieurs enjeux majeurs :
+            <ul>
+                <li>Équité : Offrir à tous les élèves un accès équitable au numérique, quel que soit leur contexte socio-économique.</li>
+                <li>Autonomie : Former des citoyens capables de maîtriser et de choisir leurs outils numériques, plutôt que de les subir.</li>
+                <li>Écologie : Réduire l’empreinte environnementale du numérique éducatif.</li>
+                <li>Économie : Diminuer les coûts pour les collectivités grâce à l’utilisation de logiciels libres et de matériel reconditionné.</li>
+            </ul>
         </p>
     </div>
 </body>
