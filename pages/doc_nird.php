@@ -52,7 +52,7 @@
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
     <div class="box">
         <p>
-            Mais c'est quoi ce site ?
+            <h4>Mais c'est quoi ce site ?</h4>
             <br>
             Ce site est réalisé dans le cadre de la nuit de l'informatique est a pour objectif de réalisé un site web qui met en avant un sujet choisi pour la nuit de l'informatique. Cette année, le choix du sujet est porté sur la démarche NIRD.
             <br><br>
