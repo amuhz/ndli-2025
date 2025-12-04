@@ -41,10 +41,15 @@
 <body>
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
         <div id="formulaire" class="col d-none">
-            <p style="margin-left: 10%;">Pseudo</p>
-            <input type="text" id="numero" style="margin-left: 10%;">
+            <p style="">Pseudo</p>
+            <input type="text" id="numero" style="">
             
-            <button type="button" onclick="addBien()" class="btn btn-primary">Valider</button>
+            <button type="button" onclick="connect()" class="btn btn-primary">Concocter (connecter)</button>
+
+        </div>
+
+        <!--formulaire des ingrédients du mot de passe-->
+        <div id="ingredients" class="col d-none">
 
         </div>
 
