@@ -37,7 +37,7 @@
     </style>
 </head>
 <body>
-    <button class="btn">Connexion/inscription</button>
+    <button class="btn" style="margin: 10px;">Connexion/inscription</button>
     <button class="btn">Trouve Ta Distribution !</button>
     <button class="btn">Liste distribution</button>
     
