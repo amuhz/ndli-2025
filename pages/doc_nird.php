@@ -53,17 +53,21 @@
     <div class="box">
         <p>
             Mais c'est quoi ce site ?
-            Ce site est realisé dans le cadre de la nuit de l'informatique est a pour objectif de realisé un site Web qui met en avant un sujet choisie pour la nuit de l'informatique. Cette année le choix du sujet est portée sur la demarche NIRD.
+            <br>
+            Ce site est réalisé dans le cadre de la nuit de l'informatique est a pour objectif de réalisé un site web qui met en avant un sujet choisi pour la nuit de l'informatique. Cette année, le choix du sujet est porté sur la démarche NIRD.
             <br><br>
-            Mais qu'est ce que ce truc de NIRD ?
+            Qu'est ce que c'est que ce truc de NIRD ?
+            <br>
             NIRD c'est une démarche innovante qui allie inclusion, responsabilité et durabilité pour repenser le numérique éducatif, en plaçant les élèves et la communauté éducative au cœur d’une transition numérique éthique et écologique.
-            L'Objectifs principaux c'est transformer l’usage du numérique dans l’éducation en s’appuyant sur trois piliers :
+            En gros l'objectifs principal c'est transformer l’usage du numérique dans l’éducation en s’appuyant sur trois piliers :
                 <br><br>
-            Inclusion : Réduire la fracture numérique en rendant le numérique accessible à tous, notamment via le reconditionnement de matériel et la distribution d’ordinateurs équipés de logiciels libres.
-            Responsabilité : Promouvoir l’autonomie et la citoyenneté numérique en utilisant des logiciels libres et ouverts (GNU/Linux, Raspberry Pi, etc.), pour sortir de la dépendance aux géants du numérique (GAFAM) et former des utilisateurs conscients et émancipés.
+            - Inclusion : Réduire la fracture numérique en rendant le numérique accessible à tous, notamment via le reconditionnement de matériel et la distribution d’ordinateurs équipés de logiciels libres.
                 <br><br>
-            Durabilité : Adopter une approche sobre et écologique, en prolongeant la durée de vie des machines, en réduisant les déchets électroniques et en limitant les coûts de licences.
-            Actions concrètes
+            - Responsabilité : Promouvoir l’autonomie et la citoyenneté numérique en utilisant des logiciels libres et ouverts (GNU/Linux, Raspberry Pi, etc.), pour sortir de la dépendance aux géants du numérique (GAFAM) et former des utilisateurs conscients et émancipés.
+                <br><br>
+            - Durabilité : Adopter une approche sobre et écologique, en prolongeant la durée de vie des machines, en réduisant les déchets électroniques et en limitant les coûts de licences.
+                <br><br><br>
+            NIRD Actions concrètes
                 <br><br>
             Matériel : Intégration de machines sous Linux, reconditionnement de vieux PC, utilisation de Raspberry Pi pour des solutions légères et économiques.
             Pédagogie : Formation des élèves et des enseignants aux enjeux du numérique libre, partage de ressources éducatives libres (REL) et de protocoles de reconditionnement.
