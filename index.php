@@ -29,6 +29,8 @@
             cursor: pointer;
             transition: transform 0.15s ease, box-shadow 0.2s ease;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            display: inline-block;
+            text-decoration: none;
             }
         .btn:hover {
             transform: translateY(-3px);
