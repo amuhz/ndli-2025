@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="img/foret.jpg">
     <style>
         body {
-            background-image: url("img/foret.jpg");
+            background-image: url("../img/tombe.webp");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
