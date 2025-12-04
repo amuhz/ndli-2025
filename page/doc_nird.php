@@ -18,6 +18,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            font-family: Arial, sans-serif;
         }
         .btn {
             padding: 12px 25px;
@@ -36,36 +37,48 @@
             transform: translateY(-3px);
             box-shadow: 0 8px 18px rgba(0,0,0,0.3);
         }
+        .box {
+            background: white;
+            padding: 25px 35px;
+            border-radius: 15px;
+            max-width: 600px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            text-align: center;         /* Centre le texte */
+            font-size: 18px;
+            line-height: 1.6;
+        }
     </style>
 </head>
 <body>
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
-    <p>
-        NIRD est une démarche innovante qui allie inclusion, responsabilité et durabilité pour repenser le numérique éducatif, en plaçant les élèves et la communauté éducative au cœur d’une transition numérique éthique et écologique.
-        Objectifs principaux
-        Le projet NIRD vise à transformer l’usage du numérique dans l’éducation en s’appuyant sur trois piliers :
-            <br><br>
-        Inclusion : Réduire la fracture numérique en rendant le numérique accessible à tous, notamment via le reconditionnement de matériel et la distribution d’ordinateurs équipés de logiciels libres.
-        Responsabilité : Promouvoir l’autonomie et la citoyenneté numérique en utilisant des logiciels libres et ouverts (GNU/Linux, Raspberry Pi, etc.), pour sortir de la dépendance aux géants du numérique (GAFAM) et former des utilisateurs conscients et émancipés.
-        Durabilité : Adopter une approche sobre et écologique, en prolongeant la durée de vie des machines, en réduisant les déchets électroniques et en limitant les coûts de licences.
-        Actions concrètes
-            <br><br>
-        Matériel : Intégration de machines sous Linux, reconditionnement de vieux PC, utilisation de Raspberry Pi pour des solutions légères et économiques.
-        Pédagogie : Formation des élèves et des enseignants aux enjeux du numérique libre, partage de ressources éducatives libres (REL) et de protocoles de reconditionnement.
-        Citoyenneté : Impliquer les élèves dans le reconditionnement et la distribution de matériel, créant une dynamique collective et responsabilisante.
-        Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.
-        Originalité du projet
-            <br><br>
-        Approche globale : Le projet ne se limite pas à l’équipement technique, mais vise une transformation des pratiques et des valeurs autour du numérique.
-        Logique de sobriété : Réduction de la consommation énergétique, allongement de la durée de vie des machines, et baisse des coûts pour les collectivités.
-        Modèle reproductible : NIRD se veut un exemple inspirant pour d’autres établissements, avec une ambition de diffusion nationale.
-            <br><br>
-        Enjeux et bénéfices
-            <br><br>
-        Équité : Offrir à tous les élèves un accès équitable au numérique, quel que soit leur contexte socio-économique.
-        Autonomie : Former des citoyens capables de maîtriser et de choisir leurs outils numériques, plutôt que de les subir.
-        Écologie : Réduire l’empreinte environnementale du numérique éducatif.
-        Économie : Diminuer les coûts pour les collectivités grâce à l’utilisation de logiciels libres et de matériel reconditionné.
-    </p>
+    <div class="box">
+        <p>
+            NIRD est une démarche innovante qui allie inclusion, responsabilité et durabilité pour repenser le numérique éducatif, en plaçant les élèves et la communauté éducative au cœur d’une transition numérique éthique et écologique.
+            Objectifs principaux
+            Le projet NIRD vise à transformer l’usage du numérique dans l’éducation en s’appuyant sur trois piliers :
+                <br><br>
+            Inclusion : Réduire la fracture numérique en rendant le numérique accessible à tous, notamment via le reconditionnement de matériel et la distribution d’ordinateurs équipés de logiciels libres.
+            Responsabilité : Promouvoir l’autonomie et la citoyenneté numérique en utilisant des logiciels libres et ouverts (GNU/Linux, Raspberry Pi, etc.), pour sortir de la dépendance aux géants du numérique (GAFAM) et former des utilisateurs conscients et émancipés.
+            Durabilité : Adopter une approche sobre et écologique, en prolongeant la durée de vie des machines, en réduisant les déchets électroniques et en limitant les coûts de licences.
+            Actions concrètes
+                <br><br>
+            Matériel : Intégration de machines sous Linux, reconditionnement de vieux PC, utilisation de Raspberry Pi pour des solutions légères et économiques.
+            Pédagogie : Formation des élèves et des enseignants aux enjeux du numérique libre, partage de ressources éducatives libres (REL) et de protocoles de reconditionnement.
+            Citoyenneté : Impliquer les élèves dans le reconditionnement et la distribution de matériel, créant une dynamique collective et responsabilisante.
+            Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.
+            Originalité du projet
+                <br><br>
+            Approche globale : Le projet ne se limite pas à l’équipement technique, mais vise une transformation des pratiques et des valeurs autour du numérique.
+            Logique de sobriété : Réduction de la consommation énergétique, allongement de la durée de vie des machines, et baisse des coûts pour les collectivités.
+            Modèle reproductible : NIRD se veut un exemple inspirant pour d’autres établissements, avec une ambition de diffusion nationale.
+                <br><br>
+            Enjeux et bénéfices
+                <br><br>
+            Équité : Offrir à tous les élèves un accès équitable au numérique, quel que soit leur contexte socio-économique.
+            Autonomie : Former des citoyens capables de maîtriser et de choisir leurs outils numériques, plutôt que de les subir.
+            Écologie : Réduire l’empreinte environnementale du numérique éducatif.
+            Économie : Diminuer les coûts pour les collectivités grâce à l’utilisation de logiciels libres et de matériel reconditionné.
+        </p>
+    </div>
 </body>
 </html>
