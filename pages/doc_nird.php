@@ -72,11 +72,10 @@
             Pour mettre en oeuvre une demarche NIRD, on doit agir sur plusieurs axes :
             <div style="text-align: left;">
                 <ul>
-                    <li>Le Matériel : Intégration de machines sous Linux, reconditionnement de vieux PC, utilisation de Raspberry Pi pour des solutions légères et économiques.<br>
+                    <li>Le Matériel : Intégration de machines sous Linux, reconditionnement de vieux PC, utilisation de Raspberry Pi pour des solutions légères et économiques.</li>
                     <li>La Pédagogie : Formation des élèves et des enseignants aux enjeux du numérique libre, partage de ressources éducatives libres (REL) et de protocoles de reconditionnement.</li>
                     <li>La Citoyenneté : Impliquer les élèves dans le reconditionnement et la distribution de matériel, créant une dynamique collective et responsabilisante.</li>
                     <li>Le Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.</li>
-                    Originalité du projet</li>
                 </ul>
             </div>
                 <br>
