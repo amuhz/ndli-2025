@@ -40,7 +40,7 @@
 <body>
     <a href="pages/connexion.php" class="btn" style="margin: 10px;">Connexion/inscription</a>
     <a href="pages/find_distri.php" class="btn">Trouve Ta Distribution !</a>
-    <a href="pages/linux_distri.php" class="btn" style="margin: 10px;">Liste distribution</a>
+    <a href="pages/linux_distri.php" class="btn" style="margin: 10px;">Liste des distributions</a>
     <a href="pages/doc_nird.php" class="btn" style="margin: 10px;">C'est quoi NIRD ?</a>
 </body>
 </html>
