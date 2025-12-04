@@ -58,7 +58,7 @@
             <h4>Qu'est ce que c'est que ce truc de NIRD ?</h4>
             NIRD c'est une démarche innovante qui allie inclusion, responsabilité et durabilité pour repenser le numérique éducatif, en plaçant les élèves et la communauté éducative au cœur d’une transition numérique éthique et écologique.
             En gros l'objectifs principal c'est transformer l’usage du numérique dans l’éducation en s’appuyant sur trois piliers :
-        </p><br>
+        </p>
         <div style="text-align: left;">
             <ul>
                 <li>Inclusion : Réduire la fracture numérique en rendant le numérique accessible à tous, notamment via le reconditionnement de matériel et la distribution d’ordinateurs équipés de logiciels libres.</li>
