@@ -52,13 +52,12 @@
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
     <div class="box">
         <p>
-            C'est quoi ce site ?
-            -Ce site est realisé dans le cadre de la nuit de l'informatique est a pour objectif de realisé un site Web qui met en avant un sujet choisie pour la nuit de l'informatique. Cette année le choix du sujet est portée sur la demarche NIRD.
+            Mais c'est quoi ce site ?
+            Ce site est realisé dans le cadre de la nuit de l'informatique est a pour objectif de realisé un site Web qui met en avant un sujet choisie pour la nuit de l'informatique. Cette année le choix du sujet est portée sur la demarche NIRD.
             <br><br>
             Mais qu'est ce que ce truc de NIRD ?
             NIRD c'est une démarche innovante qui allie inclusion, responsabilité et durabilité pour repenser le numérique éducatif, en plaçant les élèves et la communauté éducative au cœur d’une transition numérique éthique et écologique.
-            Objectifs principaux
-            Le projet NIRD vise à transformer l’usage du numérique dans l’éducation en s’appuyant sur trois piliers :
+            L'Objectifs principaux c'est transformer l’usage du numérique dans l’éducation en s’appuyant sur trois piliers :
                 <br><br>
             Inclusion : Réduire la fracture numérique en rendant le numérique accessible à tous, notamment via le reconditionnement de matériel et la distribution d’ordinateurs équipés de logiciels libres.
             Responsabilité : Promouvoir l’autonomie et la citoyenneté numérique en utilisant des logiciels libres et ouverts (GNU/Linux, Raspberry Pi, etc.), pour sortir de la dépendance aux géants du numérique (GAFAM) et former des utilisateurs conscients et émancipés.
