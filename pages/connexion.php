@@ -6,8 +6,6 @@
     <title>Connect</title>
     <link rel="icon" type="image/png" href="img/foret.jpg">
     <style>
-
-        <style>
         .container{
         display: flex;
         flex-wrap: wrap;        
@@ -56,8 +54,8 @@
 <body>
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
         <div id="formulaire" class="col d-none">
-            <p style="">Pseudo</p>
-            <input type="text" id="numero" style="">
+            <p style="">Nom de Mage</p>
+            <input type="text" id="pseudo" style="">
             
             <button type="button" onclick="connect()" class="btn btn-primary">Concocter (connecter)</button>
         </div>
