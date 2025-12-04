@@ -6,6 +6,21 @@
     <title>Connect</title>
     <link rel="icon" type="image/png" href="img/foret.jpg">
     <style>
+
+        <style>
+        .container{
+        display: flex;
+        flex-wrap: wrap;        
+        gap: 10px;              
+        }
+        .item{
+        flex: 0 0 150px;       
+        height: 80px;
+        display:flex;align-items:center;justify-content:center;
+        border:1px solid #ccc;
+        box-sizing: border-box;
+        }
+
         body {
             background-image: url("../img/foret.jpg");
             background-size: cover;
@@ -45,13 +60,14 @@
             <input type="text" id="numero" style="">
             
             <button type="button" onclick="connect()" class="btn btn-primary">Concocter (connecter)</button>
-
         </div>
 
         <!--formulaire des ingrédients du mot de passe-->
-        <div id="ingredients" class="col d-none">
-
-        </div>
-
+    <div id="ingredients" class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  <!-- ... -->
+</div>
 </body>
 </html>
