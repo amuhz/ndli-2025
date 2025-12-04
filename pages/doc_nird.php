@@ -58,8 +58,7 @@
             <h4>Qu'est ce que c'est que ce truc de NIRD ?</h4>
             NIRD c'est une démarche innovante qui allie inclusion, responsabilité et durabilité pour repenser le numérique éducatif, en plaçant les élèves et la communauté éducative au cœur d’une transition numérique éthique et écologique.
             En gros l'objectifs principal c'est transformer l’usage du numérique dans l’éducation en s’appuyant sur trois piliers :
-                <br>
-        </p>
+        </p><br>
         <div style="text-align: left;">
             <ul>
                 <li>Inclusion : Réduire la fracture numérique en rendant le numérique accessible à tous, notamment via le reconditionnement de matériel et la distribution d’ordinateurs équipés de logiciels libres.</li>
@@ -67,7 +66,7 @@
                 <li>Durabilité : Adopter une approche sobre et écologique, en prolongeant la durée de vie des machines, en réduisant les déchets électroniques et en limitant les coûts de licences.</li>
             </ul>
         </div>
-        <p><br>
+        <p>
             <h4>Concrètement faut faire quoi pour avoir une démarche de NIRD ?</h4>
             Pour mettre en oeuvre une demarche NIRD, on doit agir sur plusieurs axes :
             <div style="text-align: left;">
@@ -77,7 +76,7 @@
                     <li>La Citoyenneté : Impliquer les élèves dans le reconditionnement et la distribution de matériel, créant une dynamique collective et responsabilisante.</li>
                     <li>Le Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.</li>
                 </ul>
-            </div><br>
+            </div>
             <h4>Le projet NIRD c'est avoir un ordinateur sous Linux ?</h4>
             Non, le projet NIRD ne se limite pas à l’équipement technique, NIRD c'est aussi une transformation des pratiques et des valeurs autour du numérique dans lequel on réfléchi a la réduction de la consommation énergétique, a l'allongement de la durée de vie des machines, et à la baisse des coûts pour les collectivités.
             Finalement NIRD c'est penser sur le long terme avec un numérique plus étique et plus réfléchit.
