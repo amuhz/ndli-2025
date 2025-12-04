@@ -7,15 +7,27 @@
     <link rel="icon" type="image/png" href="chemin/vers/logo.png"><!--a changer-->
     <style>
         body {
-        background-image: url("img/foret.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+            background-image: url("img/foret.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
-  </style>
+        .btn {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #6a5af9, #8750f5);
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            }
+    </style>
 </head>
 <body>
-    bonjour je suis un tres beau site tres legerr
+    <button class="btn">Clique ici</button>
+    
 </body>
 </html>
