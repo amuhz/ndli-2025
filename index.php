@@ -12,6 +12,12 @@
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            display: flex;
+            flex-direction: column;     /* Met les boutons l’un sous l’autre */
+            justify-content: center;    /* Centre verticalement */
+            align-items: center;        /* Centre horizontalement */
+            height: 100vh;              /* Prend toute la hauteur de l’écran */
+            margin: 0;                  /* Enlève les marges du body */
         }
         .btn {
             padding: 12px 25px;
@@ -24,10 +30,16 @@
             transition: transform 0.15s ease, box-shadow 0.2s ease;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
             }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+        }
     </style>
 </head>
 <body>
-    <button class="btn">Clique ici</button>
+    <button class="btn">Connexion/inscription</button>
+    <button class="btn">Trouve Ta Distribution !</button>
+    <button class="btn">Liste distribution</button>
     
 </body>
 </html>
