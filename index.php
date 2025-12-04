@@ -18,7 +18,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-        }ajout du dossier page et des futur page du projet
+        }
         .btn {
             padding: 12px 25px;
             background: linear-gradient(135deg, #787686ff, #9188a3ff);
