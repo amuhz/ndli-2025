@@ -37,7 +37,7 @@
     </style>
 </head>
 <body>
-    <a href="ndex.php" class="btn" style="margin: 10px;">Accueil</a>
+    <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
     ici c'est la connexion !
 </body>
 </html>
