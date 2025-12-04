@@ -64,10 +64,9 @@
             <ul>
                 <li>Inclusion : Réduire la fracture numérique en rendant le numérique accessible à tous, notamment via le reconditionnement de matériel et la distribution d’ordinateurs équipés de logiciels libres.</li><br>
                 <li>Responsabilité : Promouvoir l’autonomie et la citoyenneté numérique en utilisant des logiciels libres et ouverts (GNU/Linux, Raspberry Pi, etc.), pour sortir de la dépendance aux géants du numérique (GAFAM) et former des utilisateurs conscients et émancipés.</li><br>
-                <li>Durabilité : Adopter une approche sobre et écologique, en prolongeant la durée de vie des machines, en réduisant les déchets électroniques et en limitant les coûts de licences.</li><br>
+                <li>Durabilité : Adopter une approche sobre et écologique, en prolongeant la durée de vie des machines, en réduisant les déchets électroniques et en limitant les coûts de licences.</li>
             </ul>
         </div>
-        <br>
         <p>
             <h4>Concrètement faut faire quoi pour avoir une démarche de NIRD ?</h4>
             Pour mettre en oeuvre une demarche NIRD, on doit agir sur plusieurs axes :
