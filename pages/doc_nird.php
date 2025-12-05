@@ -90,7 +90,7 @@
                     <li>Écologie : Réduire l’empreinte environnementale du numérique éducatif.</li>
                     <li>Économie : Diminuer les coûts pour les collectivités grâce à l’utilisation de logiciels libres et de matériel reconditionné.</li>
                 </ul>
-            </div>
+            </div>oooooooooo woooooooooooowww c'est trop bien NIRD !
         </p>
     </div>
 </body>
