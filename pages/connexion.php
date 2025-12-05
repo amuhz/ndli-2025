@@ -50,33 +50,27 @@
             box-shadow: 0 8px 18px rgba(0,0,0,0.3);
         }
 
-        /* On cache la vraie checkbox */
-        .hidden-check {
-            display: none;
-        }
-
-        /* Style de l’élément cliquable */
-        .fake-check {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 150px;
-            height: 80px;
-            border: 2px solid #aaa;
-            border-radius: 10px;
-
+        .necro-classic {
+            padding: 10px 18px;
+            background: #1a0a1f;
+            border: 2px solid #4c0070;
+            border-radius: 6px;
+            color: #d9b3ff;
+            font-family: "Georgia", serif;
             cursor: pointer;
-            user-select: none;
-            transition: 0.2s;
+            transition: 0.2s ease;
+            box-shadow: 0 0 8px #4c0070;
         }
 
-        /* Apparence quand la checkbox est cochée */
-        .hidden-check:checked + .fake-check {
-            background: dodgerblue;
-            color: white;
-            border-color: dodgerblue;
-            transform: scale(1.05);
+        .necro-classic:hover {
+            background: #2a0038;
+            box-shadow: 0 0 12px #8a00c8;
+            color: #ffffff;
+        }
+
+        .necro-classic:active {
+            background: #4c0070;
+            box-shadow: 0 0 15px #b700ff inset;
         }
     </style>
 </head>
@@ -93,18 +87,15 @@
     <div id="ingredients" class="container">
 
         <div type="item">
-            <input type="checkbox" id="box1" class="hidden-check">
-            <label for="box1" class="fake-check">Option 1</label>
+            <button class="necro-classic">Lancer le sort</button>
         </div>
 
         <div type="item">
-            <input type="checkbox" id="box2" class="hidden-check">
-            <label for="box2" class="fake-check">Option 2</label>
+            <button class="necro-classic">Lancer le sort</button>
         </div>
 
         <div type="item">
-            <input type="checkbox" id="box3" class="hidden-check">
-            <label for="box3" class="fake-check">Option 3</label>
+            <button class="necro-classic">Lancer le sort</button>
         </div>
     </div>
 </body>
