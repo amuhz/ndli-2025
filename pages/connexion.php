@@ -77,6 +77,21 @@
 <?php
 session_start();
 
+//connexion à la bdd
+$mysqli = new mysqli('localhost','team4sql','LqrB1khR','team4_db1');
+if ($mysqli->connect_errno) {
+// Affichage d'un message d'erreur
+echo "Error: Problème de connexion à la BDD \n";
+// Arrêt du chargement de la page
+exit;
+}
+else
+{
+    echo "Connexion réussie\n";
+}
+
+
+
 // Initialisation du texte
 if (!isset($_SESSION['phrase'])) {
     $_SESSION['phrase'] = "";
@@ -111,7 +126,7 @@ $listeMots = ["Racines de dev indé", "Feuilles de reutilisation", "Poudre d'ope
             <button type="button" onclick="connect()" class="btn-dark">Concocter (connecter)</button>
         </div>
 
-        <textarea rows="4" cols="50"><?php echo htmlspecialchars($_SESSION['phrase']); ?></textarea>
+        <textarea rows="4" disabled="disabled" cols="50"><?php echo htmlspecialchars($_SESSION['phrase']); ?></textarea>
         <br><br>
 
         <!--formulaire des ingrédients du mot de passe-->
@@ -126,7 +141,7 @@ $listeMots = ["Racines de dev indé", "Feuilles de reutilisation", "Poudre d'ope
 
         <br><br>
 
-        <button type="submit" name="reset" value="1">Effacer</button>
+        <button type="submit" class="btn" name="reset" value="1">Effacer</button>
     </form>
     </div>
 </body>
