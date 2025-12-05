@@ -121,7 +121,10 @@ $listeMots = ["Racines de dev indé", "Feuilles de réutilisation", "Poudre d\'o
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
         <div id="formulaire" class="col d-none">
             <p style="">Nom de Mage</p>
+            <form action="action.php" method="post">
             <input type="text" id="pseudo" style="">
+            <input rows="4" disabled="disabled" cols="50"><?php echo htmlspecialchars($_SESSION['phrase']); ?></input>
+</form>
             
             <button type="submit" class="btn-dark">Concocter (connecter)</button>
         </div>
