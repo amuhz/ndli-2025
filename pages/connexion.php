@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connect</title>
+    <title>Potion de Conexion</title>
     <link rel="icon" type="image/png" href="img/foret.jpg">
     <style>
         .container{
@@ -99,7 +99,8 @@ if (isset($_POST['reset'])) {
 }
 
 // La liste des mots
-$listeMots = ["Bonjour", "Comment", "ça", "va", "?"];
+$listeMots = ["Racines de dev indé", "Feuilles de reutilisation", "Poudre d'open source", "Champignon tests unitaires", "Mousse de sobriété numérique (bio évidemment)", "Infusion d’UX accessible",
+            "Pétales d’inclusivité logicielle","Sève de simplicité"];
 ?>
 <body>
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
@@ -127,18 +128,6 @@ $listeMots = ["Bonjour", "Comment", "ça", "va", "?"];
 
         <button type="submit" name="reset" value="1">Effacer</button>
     </form>
-
-        <div type="item">
-            <button class="btn-dark">Ingrédient 1</button>
-        </div>
-
-        <div type="item">
-            <button class="btn-dark">Ingrédient 2</button>
-        </div>
-
-        <div type="item">
-            <button class="btn-dark">Ingrédient 3</button>
-        </div>
     </div>
 </body>
 </html>
