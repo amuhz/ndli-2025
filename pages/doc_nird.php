@@ -77,7 +77,7 @@
                     <li>Le Partage : Diffusion des ressources et retours d’expérience sous licence ouverte (CC BY-SA) pour inspirer d’autres établissements.</li>
                 </ul>
             </div>
-            <h4>Le projet NIRD c'est avoir un ordinateur sous Linux ?</h4>
+            <h4>Le projet NIRD c'est pas qu'avoir un ordinateur sous Linux ?</h4>
             Non, le projet NIRD ne se limite pas à l’équipement technique, NIRD c'est aussi une transformation des pratiques et des valeurs autour du numérique dans lequel on réfléchi a la réduction de la consommation énergétique, a l'allongement de la durée de vie des machines, et à la baisse des coûts pour les collectivités.
             Finalement NIRD c'est penser sur le long terme avec un numérique plus étique et plus réfléchit.
             En étant un modèle efficace et reproductible, NIRD se veut un exemple inspirant pour d’autres établissements, avec une ambition de diffusion nationale.<br>
