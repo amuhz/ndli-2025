@@ -27,7 +27,7 @@
         .btn {
             position: absolute;
             padding: 12px 25px;
-            background: linear-gradient(135deg, #787686ff, #9188a3ff);
+            background: linear-gradient(135deg, rgba(120, 118, 134, 0.7), rgba(145, 136, 163, 0.7));
             color: white;
             font-size: 18px;
             border: none;
