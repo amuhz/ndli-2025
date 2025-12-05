@@ -97,10 +97,14 @@
         text-align: center;
         margin-top: 10px;
     }
+    .b {
+        flex-direction: column;
+        align-items: center;
+    }
 </style>
 </head>
 <body>
-    <div>
+    <div class="b">
         <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
         bienvenue dans trouve ta distribution linux! 
         Pour trouver le mage de distribution linux qu'il te faut tu dois completer se questionnaire :
