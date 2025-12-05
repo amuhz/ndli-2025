@@ -120,6 +120,7 @@
             <input type="radio" name="step" id="step4">
             <input type="radio" name="step" id="step5">
             <input type="radio" name="step" id="step6">
+            <input type="radio" name="step" id="step7">
             
             <div class="questions">
 
@@ -147,7 +148,7 @@
 
                 <!-- ÉTAPE 3 -->
                 <div class="step" id="q3">
-                    <label>3️⃣ Vous utilisé principalement votre ordinateur pour :</label><br><br>
+                    <label>3️⃣ Vous utilisez principalement votre ordinateur pour :</label><br><br>
                     <input type="checkbox" name="acti" value="coder"> Coder / Developper<br>
                     <input type="checkbox" name="acti" value="jouer"> Jouer à des jeux video<br>
                     <input type="checkbox" name="acti" value="uro"> Bureautiqque<br><br>
@@ -179,7 +180,7 @@
 
                 <!-- ÉTAPE 5 -->
                 <div class="step" id="q5">
-                    <label>5️⃣ A quel point vous maitrisé votre ordinateur ?</label>
+                    <label>5️⃣ A quel point vous maitrisez votre ordinateur ?</label>
                     <select name="skill" required>
                         <option value="">A remplir ...</option>
                         <option value="5">J'ai coder mon OS</option>
@@ -187,6 +188,23 @@
                         <option value="3">Je me suis deja fait rickroll</option>
                         <option value="2">Je vais sur internet</option>
                         <option value="1">Comment on apuis sur les boutons ?</option>
+                    </select>
+
+                    <div class="btn-container">
+                        <label for="step4" class="btn">Précédent</label>
+                        <button type="submit" class="btn-submit">Envoyer</button>
+                    </div>
+                </div>
+                <!-- ÉTAPE 6 -->
+                <div class="step" id="q5">
+                    <label>6️⃣ A quel frequence utilisez vous votre utilisateur?</label>
+                    <select name="freq" required>
+                        <option value="">A remplir ...</option>
+                        <option value="5">💀</option>
+                        <option value="4">entre le matin et le soir </option>
+                        <option value="3">3-4h par jour</option>
+                        <option value="2">Quand je repond sur facebook</option>
+                        <option value="1">Quel ordinateur?</option>
                     </select>
 
                     <div class="btn-container">
