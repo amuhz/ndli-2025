@@ -49,6 +49,35 @@
             transform: translateY(-3px);
             box-shadow: 0 8px 18px rgba(0,0,0,0.3);
         }
+
+        /* On cache la vraie checkbox */
+        .hidden-check {
+            display: none;
+        }
+
+        /* Style de l’élément cliquable */
+        .fake-check {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 150px;
+            height: 80px;
+            border: 2px solid #aaa;
+            border-radius: 10px;
+
+            cursor: pointer;
+            user-select: none;
+            transition: 0.2s;
+        }
+
+        /* Apparence quand la checkbox est cochée */
+        .hidden-check:checked + .fake-check {
+            background: dodgerblue;
+            color: white;
+            border-color: dodgerblue;
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
@@ -62,29 +91,21 @@
 
         <!--formulaire des ingrédients du mot de passe-->
     <div id="ingredients" class="container">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-        <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-        <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-        <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-        <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-        <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-        <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-    
-  <!-- ... -->
-</div>
+
+        <div type="item">
+            <input type="checkbox" id="box1" class="hidden-check">
+            <label for="box1" class="fake-check">Option 1</label>
+        </div>
+
+        <div type="item">
+            <input type="checkbox" id="box1" class="hidden-check">
+            <label for="box1" class="fake-check">Option 2</label>
+        </div>
+
+        <div type="item">
+            <input type="checkbox" id="box1" class="hidden-check">
+            <label for="box1" class="fake-check">Option 3</label>
+        </div>
+    </div>
 </body>
 </html>
