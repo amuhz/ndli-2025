@@ -43,7 +43,7 @@
 
 
                     
-                    $sql= "SELECT *  FROM t_utilisateur_uti WHERE uti_pseudo = '".$pseudo."' AND uti_mdp = sha512('".$mdp."');";
+                    $sql= "SELECT *  FROM t_utilisateur_uti WHERE uti_pseudo = '".$pseudo."' AND uti_mdp = sha2('".$mdp."',512);";
                     $result = $mysqli->query($sql);
 
 
