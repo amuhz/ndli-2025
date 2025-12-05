@@ -114,8 +114,8 @@ if (isset($_POST['reset'])) {
 }
 
 // La liste des mots
-$listeMots = ["Racines de dev indé", "Feuilles de réutilisation", "Poudre d'open source", "Champignon tests unitaires", "Mousse de sobriété numérique (bio évidemment)", "Infusion d’UX accessible",
-            "Pétales d’inclusivité logicielle","Sève de simplicité"];
+$listeMots = ["Racines de dev indé", "Feuilles de réutilisation", "Poudre d\'open source", "Champignon tests unitaires", "Mousse de sobriété numérique (bio évidemment)", "Infusion d\’UX accessible",
+            "Pétales d\’inclusivité logicielle","Sève de simplicité"];
 ?>
 <body>
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
