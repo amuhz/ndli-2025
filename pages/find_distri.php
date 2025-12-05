@@ -120,7 +120,6 @@
         <input type="radio" name="step" id="step6">
 
         <h2>Questionnaire</h2>
-        <form action="find_distri_action.php" method="post">
 
             <!-- Inputs invisibles pour le contrôle des étapes -->
             <input type="radio" name="step" id="step1" checked>
@@ -208,7 +207,6 @@
                 </div>
 
             </div>
-        </form>
         </div>
     </div>
 </body>
