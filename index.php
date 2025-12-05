@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nez Crome Ancien</title>
-    <link rel="icon" type="image/png" href="img/foret.jpg"><!--a changer-->
+    <link rel="icon" type="image/png" href="img/index.jpg"><!--a changer-->
     <style>
         body {
             background-image: url("img/foret.jpg");
