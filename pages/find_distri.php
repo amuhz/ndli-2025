@@ -117,6 +117,7 @@
         <input type="radio" name="step" id="step3">
         <input type="radio" name="step" id="step4">
         <input type="radio" name="step" id="step5">
+        <input type="radio" name="step" id="step6">
 
         <h2>Questionnaire</h2>
 
