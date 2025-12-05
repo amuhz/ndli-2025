@@ -98,6 +98,7 @@
         margin-top: 10px;
     }
     .b {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
