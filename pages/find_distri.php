@@ -163,6 +163,7 @@
                 <div class="step" id="q4">
                     <label>4️⃣ Quel type d'ordinateur avez vous ?</label>
                     <select name="pc_type" required>
+                        <option value="">A remplir ...</option>
                         <option value="5">La NASA a utilisé mon ordi pour le dernier lancement d'Ariane 5.</option>
                         <option value="4">Je fais tourner cyberpunk tranquille.</option>
                         <option value="3">Minecraft, c'est déjà pas mal</option>
@@ -180,6 +181,7 @@
                 <div class="step" id="q5">
                     <label>5️⃣ A quel point vous maitrisé votre ordinateur ?</label>
                     <select name="skill" required>
+                        <option value="">A remplir ...</option>
                         <option value="5">J'ai coder mon OS</option>
                         <option value="4">Quand je m'ennuis je test une nouvelle OS</option>
                         <option value="3">Je me suis deja fait rickroll</option>
