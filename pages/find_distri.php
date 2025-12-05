@@ -89,7 +89,7 @@
     }
 
     /* Cacher les radios */
-    input[type="radio"] {
+    input[type="radio"][name="step"] {
         display: none;
     }
 
