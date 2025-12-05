@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="img/index.jpg"><!--a changer-->
     <style>
         body {
-            background-image: url("img/foret.jpg");
+            background-image: url("img/index.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
