@@ -51,7 +51,8 @@
     #step2:checked ~ .questions #q2,
     #step3:checked ~ .questions #q3,
     #step4:checked ~ .questions #q4,
-    #step5:checked ~ .questions #q5 {
+    #step5:checked ~ .questions #q5,
+    #step6:checked ~ .questions #q6 {
         display: block;
     }
 
@@ -194,6 +195,7 @@
                         <label for="step6" class="btn">Suite</label>
                     </div>
                 </div>
+
                 <!-- ÉTAPE 6 -->
                 <div class="step" id="q6">
                     <label>6️⃣ A quel frequence utilisez vous votre utilisateur?</label>
