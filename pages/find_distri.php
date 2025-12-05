@@ -202,7 +202,7 @@
                     <select name="freq" required>
                         <option value="">A remplir ...</option>
                         <option value="5">💀</option>
-                        <option value="4">entre le matin et le soir </option>
+                        <option value="4">Entre le matin et le soir </option>
                         <option value="3">3-4h par jour</option>
                         <option value="2">Quand je repond sur facebook</option>
                         <option value="1">Quel ordinateur?</option>
