@@ -98,13 +98,13 @@
         </div>
 
         <div type="item">
-            <input type="checkbox" id="box1" class="hidden-check">
-            <label for="box1" class="fake-check">Option 2</label>
+            <input type="checkbox" id="box2" class="hidden-check">
+            <label for="box2" class="fake-check">Option 2</label>
         </div>
 
         <div type="item">
-            <input type="checkbox" id="box1" class="hidden-check">
-            <label for="box1" class="fake-check">Option 3</label>
+            <input type="checkbox" id="box3" class="hidden-check">
+            <label for="box3" class="fake-check">Option 3</label>
         </div>
     </div>
 </body>
