@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nez Crome Ancien</title>
-    <link rel="icon" type="image/png" href="img/index.jpg"><!--a changer-->
+    <link rel="icon" type="image/png" href="img/index.jpg">
     <style>
         body {
             background-image: url("img/index.jpg");
@@ -12,13 +12,20 @@
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
             margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .btn-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
         .btn {
+            position: absolute;
             padding: 12px 25px;
             background: linear-gradient(135deg, #787686ff, #9188a3ff);
             color: white;
@@ -28,9 +35,8 @@
             cursor: pointer;
             transition: transform 0.15s ease, box-shadow 0.2s ease;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            display: inline-block;
             text-decoration: none;
-            }
+        }
         .btn:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 18px rgba(0,0,0,0.3);
@@ -38,9 +44,12 @@
     </style>
 </head>
 <body>
-    <a href="pages/connexion.php" class="btn" style="margin: 10px;">Connexion/inscription</a>
-    <a href="pages/find_distri.php" class="btn">Trouve Ta Distribution !</a>
-    <a href="pages/linux_distri.php" class="btn" style="margin: 10px;">Liste des distributions</a>
-    <a href="pages/doc_nird.php" class="btn" style="margin: 10px;">C'est quoi NIRD ?</a>
+    <div class="btn-container">
+        <!-- Exemple de positionnement -->
+        <a href="pages/connexion.php" class="btn" style="top: 20%; left: 10%;">Connexion/inscription</a>
+        <a href="pages/find_distri.php" class="btn" style="top: 40%; left: 50%; transform: translateX(-50%);">Trouve Ta Distribution !</a>
+        <a href="pages/linux_distri.php" class="btn" style="top: 60%; left: 20%;">Liste des distributions</a>
+        <a href="pages/doc_nird.php" class="btn" style="top: 80%; left: 70%;">C'est quoi NIRD ?</a>
+    </div>
 </body>
 </html>
