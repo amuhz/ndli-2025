@@ -12,7 +12,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("img/foret.jpg");
+        background-image: url("../img/cimetiere.webp");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
