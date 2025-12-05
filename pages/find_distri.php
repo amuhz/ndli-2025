@@ -120,95 +120,95 @@
         <input type="radio" name="step" id="step6">
 
         <h2>Questionnaire</h2>
-<form action="find_distri_action.php" method="post">
+        <form action="find_distri_action.php" method="post">
 
-    <!-- Inputs invisibles pour le contrôle des étapes -->
-    <input type="radio" name="step" id="step1" checked>
-    <input type="radio" name="step" id="step2">
-    <input type="radio" name="step" id="step3">
-    <input type="radio" name="step" id="step4">
-    <input type="radio" name="step" id="step5">
+            <!-- Inputs invisibles pour le contrôle des étapes -->
+            <input type="radio" name="step" id="step1" checked>
+            <input type="radio" name="step" id="step2">
+            <input type="radio" name="step" id="step3">
+            <input type="radio" name="step" id="step4">
+            <input type="radio" name="step" id="step5">
 
-    <div class="questions">
+            <div class="questions">
 
-        <!-- ÉTAPE 1 -->
-        <div class="step">
-            <label>1️⃣ Quel est votre prénom ?</label>
-            <input type="text" name="name" placeholder="Entrez votre prénom" required>
+                <!-- ÉTAPE 1 -->
+                <div class="step">
+                    <label>1️⃣ Quel est votre prénom ?</label>
+                    <input type="text" name="name" placeholder="Entrez votre prénom" required>
 
-            <div class="btn-container">
-                <label for="step2" class="btn">Suite</label>
+                    <div class="btn-container">
+                        <label for="step2" class="btn">Suite</label>
+                    </div>
+                </div>
+
+                <!-- ÉTAPE 2 -->
+                <div class="step">
+                    <label>2️⃣ Votre ordinateur est actuellement sur :</label><br><br>
+
+                    <input type="radio" name="os" value="Linux" required> Linux<br>
+                    <input type="radio" name="os" value="Windows"> Windows<br>
+                    <input type="radio" name="os" value="MacOS"> MacOS<br><br>
+
+                    <div class="btn-container">
+                        <label for="step1" class="btn">Précédent</label>
+                        <label for="step3" class="btn">Suite</label>
+                    </div>
+                </div>
+
+                <!-- ÉTAPE 3 -->
+                <div class="step">
+                    <label>3️⃣ Vous utilisez principalement votre ordinateur pour :</label><br><br>
+
+                    <input type="checkbox" name="acti" value="coder"> Coder / Développer<br>
+                    <input type="checkbox" name="acti" value="jouer"> Jouer à des jeux<br>
+                    <input type="checkbox" name="acti" value="bureau"> Bureautique<br>
+                    <input type="checkbox" name="acti" value="art"> Travail artistique<br><br>
+
+                    <div class="btn-container">
+                        <label for="step2" class="btn">Précédent</label>
+                        <label for="step4" class="btn">Suite</label>
+                    </div>
+                </div>
+
+                <!-- ÉTAPE 4 -->
+                <div class="step">
+                    <label>4️⃣ Quel type d’ordinateur avez-vous ?</label>
+
+                    <select name="pc_type" required>
+                        <option value="">Choisir...</option>
+                        <option value="5">La NASA a utilisé mon ordi pour le dernier lancement d'Ariane 5.</option>
+                        <option value="4">Je fais tourner cyberpunk tranquille.</option>
+                        <option value="3">Minecraft, c'est déjà pas mal</option>
+                        <option value="2">C'est lent, mais j'ai un ordi.</option>
+                        <option value="1">Je démarre mon ventilateur à la main.</option>
+                    </select>
+
+                    <div class="btn-container">
+                        <label for="step3" class="btn">Précédent</label>
+                        <label for="step5" class="btn">Suite</label>
+                    </div>
+                </div>
+
+                <!-- ÉTAPE 5 -->
+                <div class="step">
+                    <label>5️⃣ À quel point maîtrisez-vous votre ordinateur ?</label>
+
+                    <select name="skill" required>
+                        <option value="5">J'ai coder mon OS</option>
+                        <option value="4">Quand je m'ennuis je test une nouvelle OS</option>
+                        <option value="3">Je me suis deja fait rickroll</option>
+                        <option value="2">Je vais sur internet</option>
+                        <option value="1">Comment on apuis sur les boutons ?</option>
+                    </select>
+
+                    <div class="btn-container">
+                        <label for="step4" class="btn">Précédent</label>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </div>
+                </div>
+
             </div>
-        </div>
-
-        <!-- ÉTAPE 2 -->
-        <div class="step">
-            <label>2️⃣ Votre ordinateur est actuellement sur :</label><br><br>
-
-            <input type="radio" name="os" value="Linux" required> Linux<br>
-            <input type="radio" name="os" value="Windows"> Windows<br>
-            <input type="radio" name="os" value="MacOS"> MacOS<br><br>
-
-            <div class="btn-container">
-                <label for="step1" class="btn">Précédent</label>
-                <label for="step3" class="btn">Suite</label>
-            </div>
-        </div>
-
-        <!-- ÉTAPE 3 -->
-        <div class="step">
-            <label>3️⃣ Vous utilisez principalement votre ordinateur pour :</label><br><br>
-
-            <input type="checkbox" name="acti" value="coder"> Coder / Développer<br>
-            <input type="checkbox" name="acti" value="jouer"> Jouer à des jeux<br>
-            <input type="checkbox" name="acti" value="bureau"> Bureautique<br>
-            <input type="checkbox" name="acti" value="art"> Travail artistique<br><br>
-
-            <div class="btn-container">
-                <label for="step2" class="btn">Précédent</label>
-                <label for="step4" class="btn">Suite</label>
-            </div>
-        </div>
-
-        <!-- ÉTAPE 4 -->
-        <div class="step">
-            <label>4️⃣ Quel type d’ordinateur avez-vous ?</label>
-
-            <select name="pc_type" required>
-                <option value="">Choisir...</option>
-                <option value="5">La NASA a utilisé mon ordi pour le dernier lancement d'Ariane 5.</option>
-                <option value="4">Je fais tourner cyberpunk tranquille.</option>
-                <option value="3">Minecraft, c'est déjà pas mal</option>
-                <option value="2">C'est lent, mais j'ai un ordi.</option>
-                <option value="1">Je démarre mon ventilateur à la main.</option>
-            </select>
-
-            <div class="btn-container">
-                <label for="step3" class="btn">Précédent</label>
-                <label for="step5" class="btn">Suite</label>
-            </div>
-        </div>
-
-        <!-- ÉTAPE 5 -->
-        <div class="step">
-            <label>5️⃣ À quel point maîtrisez-vous votre ordinateur ?</label>
-
-            <select name="skill" required>
-                <option value="5">J'ai coder mon OS</option>
-                <option value="4">Quand je m'ennuis je test une nouvelle OS</option>
-                <option value="3">Je me suis deja fait rickroll</option>
-                <option value="2">Je vais sur internet</option>
-                <option value="1">Comment on apuis sur les boutons ?</option>
-            </select>
-
-            <div class="btn-container">
-                <label for="step4" class="btn">Précédent</label>
-                <button type="submit" class="btn">Envoyer</button>
-            </div>
-        </div>
-
-    </div>
-</form>
+        </form>
         </div>
     </div>
 </body>
