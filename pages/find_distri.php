@@ -192,11 +192,11 @@
 
                     <div class="btn-container">
                         <label for="step4" class="btn">Précédent</label>
-                        <button type="submit" class="btn-submit">Envoyer</button>
+                        <label for="step6" class="btn">Suite</label>
                     </div>
                 </div>
                 <!-- ÉTAPE 6 -->
-                <div class="step" id="q5">
+                <div class="step" id="q6">
                     <label>6️⃣ A quel frequence utilisez vous votre utilisateur?</label>
                     <select name="freq" required>
                         <option value="">A remplir ...</option>
@@ -208,7 +208,7 @@
                     </select>
 
                     <div class="btn-container">
-                        <label for="step4" class="btn">Précédent</label>
+                        <label for="step5" class="btn">Précédent</label>
                         <button type="submit" class="btn-submit">Envoyer</button>
                     </div>
                 </div>
