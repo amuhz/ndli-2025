@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potion de Conexion</title>
-    <link rel="icon" type="image/png" href="img/foret.jpg">
     <link rel="icon" type="image/x-icon" href="../img/leNezChromeAncien.png" />
     <style>
         .container{
