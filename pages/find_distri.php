@@ -106,8 +106,8 @@
 <body>
     <div class="b">
         <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
-        bienvenue dans trouve ta distribution linux! 
-        Pour trouver le mage de distribution linux qu'il te faut tu dois completer se questionnaire :
+        <p style="color: white;">Bienvenue dans trouve ta distribution linux ! 
+        Pour trouver le mage de distribution linux qu'il te faut tu dois completer se questionnaire :</p>
         <div class="form-container">
 
         <!-- Radios invisibles pour gérer les étapes -->
