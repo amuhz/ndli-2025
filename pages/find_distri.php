@@ -12,9 +12,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(135deg, #6a5af9, #8750f5);
+        background-image: url("img/foret.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         font-family: Arial, sans-serif;
         color: #333;
+        margin: 0;
     }
 
     .form-container {
