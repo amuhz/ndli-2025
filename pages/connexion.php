@@ -74,6 +74,33 @@
         }
     </style>
 </head>
+<?php
+session_start();
+
+// Initialisation du texte
+if (!isset($_SESSION['phrase'])) {
+    $_SESSION['phrase'] = "";
+}
+
+// Si un mot a été cliqué
+if (isset($_POST['mot'])) {
+    $mot = $_POST['mot'];
+
+    // Ajouter avec un espace si nécessaire
+    if ($_SESSION['phrase'] !== "") {
+        $_SESSION['phrase'] .= " ";
+    }
+    $_SESSION['phrase'] .= $mot;
+}
+
+// Bouton pour effacer la phrase
+if (isset($_POST['reset'])) {
+    $_SESSION['phrase'] = "";
+}
+
+// La liste des mots
+$listeMots = ["Bonjour", "Comment", "ça", "va", "?"];
+?>
 <body>
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
         <div id="formulaire" class="col d-none">
@@ -83,19 +110,34 @@
             <button type="button" onclick="connect()" class="btn-dark">Concocter (connecter)</button>
         </div>
 
+        <textarea rows="4" cols="50"><?php echo htmlspecialchars($_SESSION['phrase']); ?></textarea>
+        <br><br>
+
         <!--formulaire des ingrédients du mot de passe-->
     <div id="ingredients" class="container">
 
+    <form method="post">
+        <?php foreach ($listeMots as $mot): ?>
+            <button type="submit" class="btn-dark" name="mot" value="<?php echo $mot; ?>">
+                <?php echo $mot; ?>
+            </button>
+        <?php endforeach; ?>
+
+        <br><br>
+
+        <button type="submit" name="reset" value="1">Effacer</button>
+    </form>
+
         <div type="item">
-            <button class="btn-dark">Lancer le sort</button>
+            <button class="btn-dark">Ingrédient 1</button>
         </div>
 
         <div type="item">
-            <button class="btn-dark">Lancer le sort</button>
+            <button class="btn-dark">Ingrédient 2</button>
         </div>
 
         <div type="item">
-            <button class="btn-dark">Lancer le sort</button>
+            <button class="btn-dark">Ingrédient 3</button>
         </div>
     </div>
 </body>
