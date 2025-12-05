@@ -87,7 +87,7 @@ exit;
 }
 else
 {
-    echo "Connexion réussie\n";
+    echo "Connexion BDD réussie\n";
 }
 
 
@@ -114,7 +114,7 @@ if (isset($_POST['reset'])) {
 }
 
 // La liste des mots
-$listeMots = ["Racines de dev indé", "Feuilles de reutilisation", "Poudre d'open source", "Champignon tests unitaires", "Mousse de sobriété numérique (bio évidemment)", "Infusion d’UX accessible",
+$listeMots = ["Racines de dev indé", "Feuilles de réutilisation", "Poudre d'open source", "Champignon tests unitaires", "Mousse de sobriété numérique (bio évidemment)", "Infusion d’UX accessible",
             "Pétales d’inclusivité logicielle","Sève de simplicité"];
 ?>
 <body>
@@ -123,7 +123,7 @@ $listeMots = ["Racines de dev indé", "Feuilles de reutilisation", "Poudre d'ope
             <p style="">Nom de Mage</p>
             <input type="text" id="pseudo" style="">
             
-            <button type="button" onclick="connect()" class="btn-dark">Concocter (connecter)</button>
+            <button type="submit" class="btn-dark">Concocter (connecter)</button>
         </div>
 
         <textarea rows="4" disabled="disabled" cols="50"><?php echo htmlspecialchars($_SESSION['phrase']); ?></textarea>
