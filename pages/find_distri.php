@@ -135,9 +135,9 @@
                 <!-- ÉTAPE 2 -->
                 <div class="step" id="q2">
                     <label>2️⃣ Votre ordinateur est actuellement sur :</label><br><br>
-                    <input type="radio" name="os"> Linux<br>
-                    <input type="radio" name="os"> Windows<br>
-                    <input type="radio" name="os"> MacOS<br><br>
+                    <input type="radio" name="os" value="linux"> Linux<br>
+                    <input type="radio" name="os" value="win"> Windows<br>
+                    <input type="radio" name="os" value="mac"> MacOS<br><br>
 
                     <div class="btn-container">
                         <label for="step1" class="btn">Précédent</label>
