@@ -106,7 +106,7 @@
 <body>
     <div class="b">
         <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
-        <p style="color: white; box-shadow: 0 5px 15px rgba(73, 71, 71, 0.5);">Bienvenue dans trouve ta distribution linux ! 
+        <p style="color: white; background: rgba(70, 70, 70, 0.5);box-shadow: 0 5px 15px rgba(70, 70, 70, 0.5);">Bienvenue dans trouve ta distribution linux ! 
         Trouve le mage de distribution Linux qu'il te faut en complétant ce questionnaire:</p>
         <div class="form-container">
 
