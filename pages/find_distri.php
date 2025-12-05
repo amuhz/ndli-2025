@@ -109,17 +109,9 @@
         <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
         <p style="color: white; background: rgba(70, 70, 70, 0.3); box-shadow: 0 10px 15px rgba(70, 70, 70, 0.5);">Bienvenue dans trouve ta distribution linux ! 
         Trouve le mage de distribution Linux qu'il te faut en complétant ce questionnaire:</p>
-        <div class="form-container">
-
-        <!-- Radios invisibles pour gérer les étapes -->
-        <input type="radio" name="step" id="step1" checked>
-        <input type="radio" name="step" id="step2">
-        <input type="radio" name="step" id="step3">
-        <input type="radio" name="step" id="step4">
-        <input type="radio" name="step" id="step5">
-        <input type="radio" name="step" id="step6">
 
         <h2>Questionnaire</h2>
+        <form action="find_distri_action.php" method="post">
 
             <!-- Inputs invisibles pour le contrôle des étapes -->
             <input type="radio" name="step" id="step1" checked>
@@ -207,6 +199,7 @@
                 </div>
 
             </div>
+        </form>
         </div>
     </div>
 </body>
