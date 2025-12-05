@@ -100,72 +100,76 @@
 </style>
 </head>
 <body>
-    <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
-    bienvenue dans trouve ta distribution linux! 
-    Pour trouver le mage de distribution linux qu'il te faut tu dois completer se questionnaire :
-    <div class="form-container">
+    <div>
+        <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
+        bienvenue dans trouve ta distribution linux! 
+        Pour trouver le mage de distribution linux qu'il te faut tu dois completer se questionnaire :
+        <div class="form-container">
 
-    <!-- Radios invisibles pour gérer les étapes -->
-    <input type="radio" name="step" id="step1" checked>
-    <input type="radio" name="step" id="step2">
-    <input type="radio" name="step" id="step3">
-    <input type="radio" name="step" id="step4">
-    <input type="radio" name="step" id="step5">
+        <!-- Radios invisibles pour gérer les étapes -->
+        <input type="radio" name="step" id="step1" checked>
+        <input type="radio" name="step" id="step2">
+        <input type="radio" name="step" id="step3">
+        <input type="radio" name="step" id="step4">
+        <input type="radio" name="step" id="step5">
 
-    <h2>Questionnaire</h2>
+        <h2>Questionnaire</h2>
 
-    <div class="questions">
+        <div class="questions">
 
-        <!-- ÉTAPE 1 -->
-        <div class="step" id="q1">
-            <label>1️⃣ Quel est votre prénom ?</label>
-            <input type="text" placeholder="Entrez votre prénom">
-            <div class="btn-container">
-                <label for="step2" class="btn">Suite</label>
+            <!-- ÉTAPE 1 -->
+            <div class="step" id="q1">
+                <label>1️⃣ Quel est votre prénom ?</label>
+                <input type="text" placeholder="Entrez votre prénom">
+                <div class="btn-container">
+                    <label for="step2" class="btn">Suite</label>
+                </div>
+            </div>
+
+            <!-- ÉTAPE 2 -->
+            <div class="step" id="q2">
+                <label>2️⃣ Votre système préféré :</label><br><br>
+                <input type="radio" name="os"> Linux<br>
+                <input type="radio" name="os"> Windows<br>
+                <input type="radio" name="os"> MacOS<br><br>
+
+                <div class="btn-container">
+                    <label for="step1" class="btn">Précédent</label>
+                    <label for="step3" class="btn">Suite</label>
+                </div>
+            </div>
+
+            <!-- ÉTAPE 3 -->
+            <div class="step" id="q3">
+                <label>3️⃣ Vos activités préférées :</label><br><br>
+                <input type="checkbox"> Coder<br>
+                <input type="checkbox"> Jouer<br>
+                <input type="checkbox"> Musique<br><br>
+
+                <div class="btn-container">
+                    <label for="step2" class="btn">Précédent</label>
+                    <label for="step4" class="btn">Suite</label>
+                </div>
+            </div>
+
+            <!-- ÉTAPE 4 -->
+            <div class="step" id="q4">
+                <label>4️⃣ Une distro Linux recommandée :</label>
+                <select>
+                    <option>Ubuntu</option>
+                    <option>Debian</option>
+                    <option>Arch Linux</option>
+                    <option>Fedora</option>
+                    <option>Linux Mint</option>
+                </select>
+
+                <div class="btn-container">
+                    <label for="step3" class="btn">Précédent</label>
+                    <label for="step5" class="btn">Suite</label>
+                </div>
             </div>
         </div>
-
-        <!-- ÉTAPE 2 -->
-        <div class="step" id="q2">
-            <label>2️⃣ Votre système préféré :</label><br><br>
-            <input type="radio" name="os"> Linux<br>
-            <input type="radio" name="os"> Windows<br>
-            <input type="radio" name="os"> MacOS<br><br>
-
-            <div class="btn-container">
-                <label for="step1" class="btn">Précédent</label>
-                <label for="step3" class="btn">Suite</label>
-            </div>
         </div>
-
-        <!-- ÉTAPE 3 -->
-        <div class="step" id="q3">
-            <label>3️⃣ Vos activités préférées :</label><br><br>
-            <input type="checkbox"> Coder<br>
-            <input type="checkbox"> Jouer<br>
-            <input type="checkbox"> Musique<br><br>
-
-            <div class="btn-container">
-                <label for="step2" class="btn">Précédent</label>
-                <label for="step4" class="btn">Suite</label>
-            </div>
-        </div>
-
-        <!-- ÉTAPE 4 -->
-        <div class="step" id="q4">
-            <label>4️⃣ Une distro Linux recommandée :</label>
-            <select>
-                <option>Ubuntu</option>
-                <option>Debian</option>
-                <option>Arch Linux</option>
-                <option>Fedora</option>
-                <option>Linux Mint</option>
-            </select>
-
-            <div class="btn-container">
-                <label for="step3" class="btn">Précédent</label>
-                <label for="step5" class="btn">Suite</label>
-            </div>
-        </div>
+    </div>
 </body>
 </html>
