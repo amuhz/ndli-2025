@@ -133,7 +133,7 @@
 
             <!-- ÉTAPE 2 -->
             <div class="step" id="q2">
-                <label>2️⃣ Votre système préféré :</label><br><br>
+                <label>2️⃣ Votre ordinateur est actuellement sur :</label><br><br>
                 <input type="radio" name="os"> Linux<br>
                 <input type="radio" name="os"> Windows<br>
                 <input type="radio" name="os"> MacOS<br><br>
@@ -146,10 +146,11 @@
 
             <!-- ÉTAPE 3 -->
             <div class="step" id="q3">
-                <label>3️⃣ Vos activités préférées :</label><br><br>
-                <input type="checkbox"> Coder<br>
-                <input type="checkbox"> Jouer<br>
-                <input type="checkbox"> Musique<br><br>
+                <label>3️⃣ Vous utilisé principalement votre ordinateur pour :</label><br><br>
+                <input type="checkbox"> Coder / Developper<br>
+                <input type="checkbox"> Jouer à des jeux video<br>
+                <input type="checkbox"> Bureautiqque<br><br>
+                <input type="checkbox"> Faire du travail artistique<br><br>
 
                 <div class="btn-container">
                     <label for="step2" class="btn">Précédent</label>
@@ -159,13 +160,13 @@
 
             <!-- ÉTAPE 4 -->
             <div class="step" id="q4">
-                <label>4️⃣ Une distro Linux recommandée :</label>
+                <label>4️⃣ Quel type d'ordinateur avez vous ?</label>
                 <select>
-                    <option>Ubuntu</option>
-                    <option>Debian</option>
-                    <option>Arch Linux</option>
-                    <option>Fedora</option>
-                    <option>Linux Mint</option>
+                    <option>La NASA a utilisé mon ordi pour le dernier lancement d'Ariane 5.</option>
+                    <option>Je fais tourner cyberpunk tranquille.</option>
+                    <option>Minecraft, c'est déjà pas mal</option>
+                    <option>C'est lent, mais j'ai un ordi.</option>
+                    <option>Je démarre mon ventilateur à la main.</option>
                 </select>
 
                 <div class="btn-container">
@@ -173,13 +174,31 @@
                     <label for="step5" class="btn">Suite</label>
                 </div>
             </div>
-            <!-- ÉTAPE 5 (FIN) -->
+
+            <!-- ÉTAPE 4 -->
             <div class="step" id="q5">
+                <label>4️⃣ A quel point vous maitrisé votre ordinateur ?</label>
+                <select>
+                    <option>La NASA a utilisé mon ordi pour le dernier lancement d'Ariane 5.</option>
+                    <option>Je fais tourner cyberpunk tranquille.</option>
+                    <option>Minecraft, c'est déjà pas mal</option>
+                    <option>C'est lent, mais j'ai un ordi.</option>
+                    <option>Je démarre mon ventilateur à la main.</option>
+                </select>
+
+                <div class="btn-container">
+                    <label for="step4" class="btn">Précédent</label>
+                    <label for="step6" class="btn">Suite</label>
+                </div>
+            </div>
+
+            <!-- ÉTAPE 5 (FIN) -->
+            <div class="step" id="q6">
                 <h2 style="color:white;">🎉 Merci d'avoir participé !</h2>
                 <p style="text-align:center;">Questionnaire terminé.</p>
 
                 <div class="btn-container">
-                    <label for="step4" class="btn">Précédent</label>
+                    <label for="step5" class="btn">Précédent</label>
                 </div>
             </div>
 
