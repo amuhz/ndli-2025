@@ -46,8 +46,8 @@
 <body>
     <div class="btn-container">
         <!-- Exemple de positionnement -->
-        <a href="pages/connexion.php" class="btn" style="top: 30%; right: 40%;">Connexion/inscription</a>
-        <a href="pages/find_distri.php" class="btn" style="top: 40%; right: 10%; transform: translateX(-50%);">Trouve Ta Distribution !</a>
+        <a href="pages/connexion.php" class="btn" style="top: 40%; right: 30%;">Connexion/inscription</a>
+        <a href="pages/find_distri.php" class="btn" style="top: 50%; right: 5%; transform: translateX(-50%);">Trouve Ta Distribution !</a>
         <a href="pages/linux_distri.php" class="btn" style="top: 60%; left: 30%;">Liste des distributions</a>
         <a href="pages/doc_nird.php" class="btn" style="top: 70%; right: 80%;">C'est quoi NIRD ?</a>
     </div>
