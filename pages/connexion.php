@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potion de Conexion</title>
-    <link rel="icon" type="image/png" href="img/foret.jpg">
+    <link rel="icon" type="image/x-icon" href="../img/leNezChromeAncien.png" />
     <style>
         .container{
         display: flex;
@@ -114,19 +114,21 @@ if (isset($_POST['reset'])) {
 }
 
 // La liste des mots
-$listeMots = ["Racines de dev indé", "Feuilles de réutilisation", "Poudre d'open source", "Champignon tests unitaires", "Mousse de sobriété numérique (bio évidemment)", "Infusion d’UX accessible",
-            "Pétales d’inclusivité logicielle","Sève de simplicité"];
+$listeMots = ["Racines de dev indé", "Feuilles de réutilisation", "Poudre d\'open source", "Champignon tests unitaires", "Mousse de sobriété numérique (bio évidemment)", "Infusion d\’UX accessible",
+            "Pétales d\’inclusivité logicielle","Sève de simplicité"];
 ?>
 <body>
     <a href="../index.php" class="btn" style="margin: 10px;">Accueil</a>
         <div id="formulaire" class="col d-none">
             <p style="">Nom de Mage</p>
+            <form action="action.php" method="post">
             <input type="text" id="pseudo" style="">
+            <input rows="4" disabled="disabled" cols="50" value="<?php echo htmlspecialchars($_SESSION['phrase']); ?>">
+</form>
             
             <button type="submit" class="btn-dark">Concocter (connecter)</button>
         </div>
 
-        <textarea rows="4" disabled="disabled" cols="50"><?php echo htmlspecialchars($_SESSION['phrase']); ?></textarea>
         <br><br>
 
         <!--formulaire des ingrédients du mot de passe-->
