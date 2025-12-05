@@ -123,13 +123,12 @@ $listeMots = ["Racines de dev indé", "Feuilles de réutilisation", "Poudre d\'o
             <p style="">Nom de Mage</p>
             <form action="action.php" method="post">
             <input type="text" id="pseudo" style="">
-            <input rows="4" disabled="disabled" cols="50"><?php echo htmlspecialchars($_SESSION['phrase']); ?></input>
+            <input rows="4" disabled="disabled" cols="50" value="<?php echo htmlspecialchars($_SESSION['phrase']); ?>">
 </form>
             
             <button type="submit" class="btn-dark">Concocter (connecter)</button>
         </div>
 
-        <textarea rows="4" disabled="disabled" cols="50"><?php echo htmlspecialchars($_SESSION['phrase']); ?></textarea>
         <br><br>
 
         <!--formulaire des ingrédients du mot de passe-->
