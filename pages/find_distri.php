@@ -120,7 +120,6 @@
             <input type="radio" name="step" id="step4">
             <input type="radio" name="step" id="step5">
             <input type="radio" name="step" id="step6">
-            <input type="radio" name="step" id="step7">
             
             <div class="questions">
 
