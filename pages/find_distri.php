@@ -189,7 +189,7 @@
 
                     <div class="btn-container">
                         <label for="step4" class="btn">Précédent</label>
-                        <label for="step6" class="btn">Suite</label>
+                        <button type="submit" class="btn-submit">Envoyer</button>
                     </div>
                 </div>
             </div>
